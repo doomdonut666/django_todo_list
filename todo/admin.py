@@ -8,4 +8,4 @@ class TaskAdmin(admin.ModelAdmin):
     list_filter = ('completed', 'created_at')
     search_fields = ('title', 'description')
 
-#I hope i didn't forget smth
+# I hope i didn't forget smth
