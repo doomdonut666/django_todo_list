@@ -30,7 +30,7 @@
               <div class="task">
                 <div class="task-title">
                     {% if task.completed %}Task completed!{% else %} Task not completed {% endif %}
-                    {{ task.title }}
+                    <p>{{ task.title }}</p>
                 </div>
                 
                 {% if task.description %}
